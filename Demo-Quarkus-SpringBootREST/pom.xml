@@ -9,13 +9,13 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>demo-quarkus-simple-rest</artifactId>
+	<artifactId>demo-quarkus-spring-boot-rest</artifactId>
 	<packaging>jar</packaging>
 
 	<dependencies>
 		<dependency>
 			<groupId>io.quarkus</groupId>
-			<artifactId>quarkus-resteasy-jackson</artifactId>
+			<artifactId>quarkus-spring-web</artifactId>
 		</dependency>
 		<!-- If want used YAML -->
 		<dependency>

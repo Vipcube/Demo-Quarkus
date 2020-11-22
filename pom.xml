@@ -77,5 +77,6 @@
 
 	<modules>
 		<module>Demo-Quarkus-SimpleREST</module>
+		<module>Demo-Quarkus-SpringBootREST</module>
 	</modules>
 </project>

@@ -1,0 +1,6 @@
+quarkus:
+  application:
+    name: springboot-rest
+
+  http:
+    port: 8000
