@@ -1,4 +1,4 @@
-package org.example.demo.quarkus.rest.controller;
+package org.example.demo.quarkus.rest.spring;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;

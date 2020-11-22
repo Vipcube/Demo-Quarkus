@@ -1,0 +1,6 @@
+quarkus:
+  application:
+    name: simple-rest
+
+  http:
+    port: 8000
