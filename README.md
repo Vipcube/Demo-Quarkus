@@ -6,3 +6,4 @@ The demo projects let me know more about it's how to work.
 | Name | description |
 |:---:| --- |
 | Demo-Quarkus-SimpleREST | The demo REST API used quarkus only. |
+| Demo-Quarkus-SpringBootREST | The demo REST API used spring boot style. |
