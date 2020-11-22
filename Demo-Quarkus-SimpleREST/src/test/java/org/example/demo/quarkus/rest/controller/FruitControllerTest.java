@@ -29,6 +29,10 @@ public class FruitControllerTest {
 			.when().get("/fruits")
 			.then()
 			.statusCode(200)
-			.body( is("[{\"name\":\"Apple\",\"description\":\"Winter fruit\"},{\"name\":\"Pineapple\",\"description\":\"Tropical fruit\"}]" ) );
+			.body( "$.size()", is( 2 ),
+					"[0].name", is( "Apple" ),
+					"[0].description", is( "Winter fruit" ),
+					"[1].name", is( "Pineapple" ),
+					"[1].description", is( "Tropical fruit" ) );
 	}
 }
